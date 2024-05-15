@@ -7,8 +7,7 @@ Book Sales & Distribution Management Software
 [![MySQL](https://img.shields.io/badge/MySQL-10.4.x-ef7b00.svg)](https://www.w3schools.com/mysql/default.asp)
 
 ## Installation
-
-```
+```bash
 $ composer create-project laravel/laravel:^8.0 DESKTR
 
 $ cd DESKTR
@@ -16,8 +15,10 @@ $ cd DESKTR
 $ php artisan serve
 ```
 
+> Local: http://localhost:8000/
+
 ## Setup
-```
+```bash
 $ git clone https://github.com/2gbeh/DESKTR.git
 
 $ cd DESKTR
@@ -31,8 +32,9 @@ $ php artisan key:generate
 $ php artisan serve
 ```
 
-## Usage
+> Local: http://localhost:8000/
 
+## Usage
 1. Start `Apache Server` and visit [http://localhost/phpmyadmin](http://localhost/phpmyadmin/)
 
 2. Create a new database `desktr`
@@ -49,6 +51,12 @@ DB_PASSWORD=${database_password}
 
 5. Visit http://127.0.0.1:8000
 
-## Documentation
-
+## Screenshots
 ![Screenshot](./public/social-preview.png)
+
+## Resources
+* [Laravel Installation](https://laravel.com/docs/master/installation#via-composer-create-project)
+
+* [Upload Laravel Project On GitHub - Web Tech Knowledge](https://youtu.be/X40b9x9BFGo?si=hZJw1vYleCkyAVVG)
+
+* [30 Days to Learn Laravel - Laracasts](https://www.youtube.com/watch?v=1NjOWtQ7S2o&list=PL3VM-unCzF8hy47mt9-chowaHNjfkuEVz)
